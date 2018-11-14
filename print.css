@@ -1,0 +1,38 @@
+/* qui (e solo qui) si possono usare i cm */
+
+/* tolgo le immagini
+ * tolgo i form corti (login, mipiace...) 
+ * tengo form lunghi con molti dati (come promemoria),
+ * tengo pagine fatte solo di form 
+ * tolgo le mappe
+ * tolgo il menù (menù importanti li tengo e danno info utili)
+ * tengo il "dove mi trovo"
+ * i link posso sottolinearli, inserire il link completo tra parentesi (con css3) 
+ * o togliere lo stile dei link */
+*{
+	margin: 0;
+	padding: 0;
+}
+#header{
+	text-align: center;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	padding-bottom: 1em;
+}
+
+#header h1{
+	font-size: 2.0em;
+	padding-top: 1em;
+}
+
+#header h2{
+	font-size: 1.5em;
+}
+
+img, menu{
+	display: none;
+}
+html,body{
+	font-family: Georgia, 'Times New Roman', serif; /* testo con le grazie per la stampa */
+}
+

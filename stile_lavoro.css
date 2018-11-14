@@ -1,0 +1,142 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-size: 1.0em;
+}
+
+#header{
+	background-image: url('img/back_header.jpg');
+	background-size: cover; /* l'immagine è visualizzata interamente */
+    text-align:center;
+    color:white;    
+}
+body{
+	max-width:1024px;
+	margin:auto;
+	background: #f1f5f9 url(img/bg.jpg) 1% no-repeat fixed;
+	border:0.2em solid gray;
+	font: Arial;
+}
+
+
+
+img{
+	max-width:1024px;
+}
+
+#header h1{
+	font-size: 3.5em;
+}
+
+#header h2{
+	font-size: 2em;
+	font-style: italic;
+}
+img#logo{
+	width: 13%;
+}
+
+#menu{
+	text-align: center;
+	background-color: #131c42;
+	color: white;
+}
+
+
+ul#menu li{
+	display:inline-block;
+	padding: 0.8em 2% 0.8em 2%; /* sopra destra sotto sinistra. spazi orizzontali in % */
+	border-right: 1px solid white;			/* i bordi possono essere in px */
+	
+}
+
+#menu li:first-of-type{			/* bordo primo elemento menu */
+	border-left: 1px solid white;
+}
+
+#menu li > a{
+	color:white;
+}
+
+#menu li > a:link{
+	color:white;
+}
+
+#menu li > a:visited{
+	color: #A9A9A9;
+}
+
+#menu a{
+	text-decoration:none;
+	text-align: center;
+	color: white;
+}
+
+
+
+#content h1{
+	text-align: center;
+	font-size: 2em;
+}
+#planaxis{					/* immagine centrale */
+	margin:auto;
+	margin-bottom: 1.0em;
+	margin-top: 1.0em;
+	width: 60%;
+	box-shadow: 0 0px 15px 0 rgba(0,0,0,0.5); /* ombra posizione: up right down left rgba*/
+}
+#content{
+	background-color: #f1f5f9;
+	text-align: center;
+	padding: 1.0em;
+}
+
+footer{
+	background-color: white;
+	font-style: italic;
+	text-align: center;
+	font-size: 0.9em;
+	padding: 1em;
+}
+#w3ch{
+	float:left;
+	
+}
+#w3cc{
+	float:right;
+}
+
+#currentlink{
+	background-color: #f1f5f9;
+	color: black;
+}
+
+#content p{
+	text-align:left;
+}
+#content #guestsList{
+	margin-top: 1.0em;
+	text-align: left;
+}
+#content #guestsList dd img{
+	width: 15%;
+	max-height: 9em;
+	float:left;
+	box-shadow: 0 0px 15px 0 rgba(0,0,0,0.7); /* ombra posizione: up right down left rgba*/	
+	margin: 0.4em 0.2em 0.1em 0.1em;
+}
+#guestsList dt{
+	background-color: #153466;
+	color: white;
+	padding: 0.7em;
+	font-weight: bold;
+}
+#guestsList dd{
+	border: 1px solid rgb(18,60,115);
+	min-height: 10em;
+	margin-bottom: 1.5em;
+}
+#guestsList p{
+	height: 20%;
+}
+

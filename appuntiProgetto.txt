@@ -1,0 +1,28 @@
+chiudere tag
+validari su w3 per xhtml
+<nav> invece di <div> per il menù in alto
+
+
+html5 - figure:
+<figure>
+    <img src="/media/examples/frog.png" alt="Tree frog" />
+    <figcaption>Tree frog by David Clode on Unsplash</figcaption>
+</figure>
+
+separare completamente html con css (no <.... style=".."> o <.. width=".."..>)
+
+Selezionare il css migliore per lo schermo
+<link rel="stylesheet" type="text/css" href="" media="[all][screen][handheld(cellulari)] and (max-width:480px)">
+
+CSS
+*{} prende tutti. sovrascrive le impostazioni di default del bw 
+
+usare i pixel SOLO quando si definisce la grandezza della pagina
+
+//appunti css
+margin (non text-align)		sposta l'immagine	
+background-size: cover		usa l'immagine completa e cambia le proporzioni
+img#logo			immagine con id logo
+usare una lista di link per la navbar
+display: inline-block		lista orizzontale, tiene proprietà blocco
+float:right			il browser mette display:block in automatico (quando 	trova display:...). sposta i blocchi
